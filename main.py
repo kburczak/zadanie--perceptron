@@ -22,10 +22,10 @@ eur_to_usd = []
 trend = 0
 z_5 = 0
 
-#for ilosc in range(1, 100):
-nowy = input()
-eur_to_usd.append(nowy)
-print(nowy[1])
+for ilosc in range(1, 100):
+    nowy = input()
+    eur_to_usd.append(nowy)
+
 wagi = perceptron_update(nowy)
 print(wagi)
 """for i in range(1, len(eur_to_usd)):
